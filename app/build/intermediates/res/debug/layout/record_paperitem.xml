@@ -1,0 +1,158 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="5dp"
+    android:background="#ffffff" 
+    android:id="@+id/scrollView">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical" >
+
+        <TextView
+            android:id="@+id/datebar"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:gravity="center"
+            android:text="日期"
+            android:textColor="#999999"
+            android:textSize="14sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="1px"
+            android:background="#efefef" />
+
+        <LinearLayout
+            android:id="@+id/sellbar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="成交"
+                android:textColor="#e33123"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#efefef" />
+
+            <FrameLayout
+                android:id="@+id/resultbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_height="100dp"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_margin="5dp"
+                    android:src="@drawable/y_ball" />
+
+                <TextView
+                    android:id="@+id/bangbar"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text="盈亏情况"
+                    android:textColor="#e33123"
+                    android:textSize="18sp" />
+            </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#efefef" />
+
+            <ListView
+                android:id="@+id/sellrecordbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="#efefef"
+                android:dividerHeight="1px"
+                android:scrollbars="none" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#efefef" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/buybar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="进货"
+                android:textColor="#efe123"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#efefef" />
+
+            <ListView
+                android:id="@+id/buyrecordbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="#efefef"
+                android:dividerHeight="1px"
+                android:scrollbars="none" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#efefef" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:id="@+id/addbar" >
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:gravity="center_vertical"
+                android:paddingLeft="5dp"
+                android:text="补货"
+                android:textColor="#efe123"
+                android:textSize="14sp" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#efefef" />
+
+            <ListView
+                android:id="@+id/addrecordbar"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:divider="#efefef"
+                android:dividerHeight="1px"
+                android:scrollbars="none" />
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="1px"
+                android:background="#efefef" />
+        </LinearLayout>
+    </LinearLayout>
+
+</ScrollView><!-- From: file:/G:/AndroidStudio/BBBar/app/src/main/res/layout/record_paperitem.xml -->

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal" 
+    android:background="#ffffff"
+    android:padding="5dp">
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="40dp"
+        android:layout_height="40dp"
+        android:layout_centerVertical="true"
+        />
+     <LinearLayout
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content" 
+         android:id="@+id/content"
+         android:layout_toRightOf="@+id/image"
+         android:orientation="vertical"
+         android:layout_margin="5dp"
+         android:layout_centerVertical="true"
+         android:layout_weight="1"
+         >
+         <TextView android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:layout_marginBottom="5dp"
+             android:id="@+id/name"
+             android:textColor="#999999"
+             android:text="品名"/>
+         <TextView android:layout_width="wrap_content"
+             android:layout_height="wrap_content"
+             android:id="@+id/type"
+             android:textColor="#999999"
+             android:text="规格"/>
+     </LinearLayout>
+     <TextView
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/price" 
+         android:textSize="12sp"
+         android:textColor="#999999"
+         android:layout_centerVertical="true"
+         android:layout_toLeftOf="@+id/count"
+         android:padding="20dp"
+         android:text="0"
+         />
+      <TextView
+          android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:id="@+id/count" 
+         android:textSize="12sp"
+         android:textColor="#999999"
+         android:layout_centerVertical="true"
+         android:layout_alignParentRight="true"
+         android:padding="20dp"
+         android:text="0"
+         />
+</LinearLayout>
+<!-- From: file:/G:/AndroidStudio/BBBar/app/src/main/res/layout/record_item.xml -->

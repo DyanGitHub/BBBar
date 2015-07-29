@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">BBBar</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="sdcardsize">sd卡内存</string>
+    <string name="sdcardsizeleft">剩余sd卡内存</string>
+    <string name="take_photo">拍照</string>
+    <string name="pick_photo">从相册中选择</string>
+    <string name="nosdcard">没有SD卡</string>
+    <string name="photoPickerNotFoundText">拍照没有找到图片选择器</string>
+    <string name="photoPickerNotFoundText1">从照片中选择没有找到图片选择器</string>
+    <string name="back">返回</string>
+    <string name="error">程序出现异常，即将退出</string>
+</resources>
