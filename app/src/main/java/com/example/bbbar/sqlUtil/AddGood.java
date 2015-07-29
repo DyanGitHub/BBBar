@@ -2,6 +2,7 @@ package com.example.bbbar.sqlUtil;
 /*
  * 补货信息*/
 public class AddGood {
+	private int test=0;
 	private long id;
 	private long bid;//购入信息id
 	private String  currentdate;//录入时间
